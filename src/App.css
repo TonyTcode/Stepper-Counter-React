@@ -31,3 +31,27 @@
     transform: rotate(360deg);
   }
 }
+
+
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: dodgerblue;
+  font-size: 2em;
+}
+
+.counter * {
+  margin: 32px;
+  padding: 16px;
+  border-radius: 24px;
+}
+.minus {
+  background-color: #db5353;
+  font-size: .3em;
+}
+
+.plus {
+  background-color: lightgreen;
+  font-size: .3em;
+}
